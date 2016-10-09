@@ -1,0 +1,91 @@
+#!/bin/bash
+
+ulimit -c 0
+
+export PATH="/bin:/sbin:/usr/bin:/usr/sbin:/usr/heimdal/bin:/usr/heimdal/sbin"
+export PATH=$PATH:$HOME/bin
+export PATH=$PATH:$HOME/bin/SublimeText2
+export EDITOR='emacs'
+export HISTSIZE=1000
+export MAIL="/u/all/${USER}/mail/${USER}"
+export PAGER='more'
+export PS1="(\u@\h \#)"
+export SAVEHIST=1000
+export WATCH='all'
+
+alias ll='ls -l'
+alias sl='ls'
+alias sl='cls'
+alias la='ls -a'
+alias j='jobs'
+alias emacs='emacs -nw'
+alias ne='emacs'
+alias thuanr='thunar'
+alias norme='norme -nocheat'
+alias slock='xlock -mode euler2d'
+alias glock='xlock -mode galaxy -delay 50 -count 100'
+alias maek='aplay ~/sound/make.wav & make'
+alias mmaek='aplay ~/sound/make.wav & make'
+alias mmake='aplay ~/sound/make.wav & make'
+alias mak='aplay ~/sound/make.wav & make'
+alias make='aplay ~/sound/make.wav & make'
+alias mkae='aplay ~/sound/make.wav & make'
+alias majs='aplay ~/sound/make.wav & make'
+alias maks='aplay ~/sound/make.wav & make'
+alias ake='aplay ~/sound/make.wav & make'
+alias meak='aplay ~/sound/make.wav & make'
+alias mea='aplay ~/sound/make.wav & make'
+alias mk='aplay ~/sound/make.wav & make'
+alias mke='aplay ~/sound/make.wav & make'
+alias makr='aplay ~/sound/make.wav & make'
+alias maka='aplay ~/sound/make.wav & make'
+alias laej='aplay ~/sound/make.wav & make'
+alias mlkz='aplay ~/sound/make.wav & make'
+alias mqke='aplay ~/sound/make.wav & make'
+alias amke='aplay ~/sound/make.wav & make'
+alias point='aplay ~/sound/inception.wav'
+alias poney='aplay ~/sound/poney.wav'
+alias pasavoir='aplay ~/sound/pasavoir.wav'
+alias die='aplay ~/sound/die.wav'
+alias giants='aplay ~/sound/intro_island.wav'
+alias yrester='aplay ~/sound/yrester.wav'
+alias warning='aplay ~/sound/warning.wav'
+alias quoiça='aplay ~/sound/quoiça.wav'
+alias laferme='aplay ~/sound/laferme.wav'
+alias blow='aplay ~/sound/blow.wav'
+alias ohah='aplay ~/sound/ohah.wav'
+alias meuh='aplay ~/sound/meuh.wav'
+alias youpi='aplay ~/sound/toucheIA2.wav'
+alias jolie='aplay ~/sound/jolie.wav'
+alias hein='aplay ~/sound/YAN017_1.wav'
+alias putain='aplay ~/sound/putain.wav'
+alias ohputain='aplay ~/sound/ohputain.wav'
+alias aucunenouvelle='aplay ~/sound/aucunenouvelle.wav'
+alias ping='aplay ~/sound/ping.wav'
+alias help='aplay ~/sound/help.wav'
+alias pourqui='aplay ~/sound/pourqui.wav'
+alias active='aplay ~/sound/active.wav'
+alias vousattendezquoi='aplay ~/sound/vousattendezquoi.wav'
+alias bordel='aplay ~/sound/bordel.wav'
+alias plusdemonage='aplay ~/sound/plusdemonage.wav'
+alias onvayrester='aplay ~/sound/onvayrester.wav'
+alias ohlecon='aplay ~/sound/ohlecon.wav'
+alias benvoyons='aplay ~/sound/benvoyons.wav'
+alias encourageant='aplay ~/sound/encourageant.wav'
+alias biere='aplay ~/sound/biere.wav'
+alias rm='mv -f $* -t ~/TRASH/'
+alias clean='rm -f *~ *#'
+alias en='ne'
+alias norme='tests_norme -nocheat'
+alias va='valgrind'
+
+if [ -f ${HOME}/.mybashrc ]
+then
+. ${HOME}/.mybashrc
+fi
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/heimdal/bin:/usr/heimdal/sbin:~/bin:/home/belfio_u\
+/bin
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/heimdal/bin:/usr/heimdal/sbin:~/bin:/home/belfio_u\
+/Downloads/pcre-8.34
+export PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/heimdal/bin:/usr/heimdal/sbin:~/bin:/home/belfio_u\
+/bin

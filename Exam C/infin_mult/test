@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ $1 ] && [ $2 ]; then
+    val=$1*$2
+    echo "$val" | bc;
+else
+    echo "";
+fi

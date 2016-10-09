@@ -1,0 +1,111 @@
+Partie 1:
+
+1- MS-DOS est un systeme : ?										//01- Systeme mono-tache et mono-utilisateur.
+2- ... extrait les instuctions situées dans ...  Sur l'ordre ..., ...					//02- UC, ..., ..., UAL ?
+       	       	   	       	       	    exécute l'instruction.	
+3- L'OS est une couche ?										//03- Niveau 3 : Interpréteur partiel / Couche Applicative
+4- Quelle est le type de memoire le plus lent d'accès ?							//04- pas la cache, DRAM ? Disque  ?
+5- Quel est le protocole permettant d'envoyer le courrier ?						//05- STMP
+6- Nom de la machine de Pascal ?									//06- Pascaline
+7- Un Mio vaut ?											//07- 2²⁰
+8- Par quoi est représenté la fonction NOT ?								//08- Triangle et un point.. (/A)
+9- Que signifie UAL ?											//09- Unité Arithmétique et Logique.
+10- A quoi sert le filtre sur une prise telephone ?							//10- Atténuer l'ADSL (?)
+11- topologie du reseau "token Ring"									//11- Un Anneau
+12- Pour une mémoire, qu'est ce qui permet d'accéder à l'information ?					//12- Adresse (?)
+13- Que veulent dire les lettres WWW ?									//13- World Wide Web
+14- Que veulent dire les lettres ADSL ?									//14- Asymetric Digital Subscriber Line
+15- Nom du bus systeme ?										//15- Bus interne
+16- Qui coordonne l'internet mondial ?									//16- ICANN
+17- Quel type de bus fait circuler des addresses ?							//17- Bus de données
+18- Qui à "crée" les fonctions logique ? (*)								//18- Boole
+19- Que fais un routeur ?										//19- Assure le routage des paquets / couche 3
+20- Le mot mémoire est ?										//20- Instruction : (?)
+21- Quelle memoire a la plus petite capacité ?								//21- Mémoire cache
+22- Dans le modele OSI, Quelle est la couche qui permet de gerer					//22- La couche Réseau
+    	    	   	       	   l'adressage et le routage ? (*)
+23- XOR se représente par ?										//23- Plus dans un cercle
+24- Une IPV4 contient combien d'octets ?								//24- 4 octets
+24.5 - Information stocké en mémoire codé en quoi ?							//24.5- En binaire
+25- Le bit le plus à droit s'appelle comment ?								//25- LSB
+26- C'est quoi le SSH ?											//26- Protocole de communication sécurisé
+27- Protocole dédié au transfert de fichier ?								//27- FTP
+28- La fonction NOR s'écrit comment ?									//28- (a V b)
+29- À quoi sert l'unité d'entrée / sortie ?								//29- Faire la liaison entre le processeur et les périphériques
+30- Quelle entreprise à inventé le PC ?									//30- Intel
+31- Quel est le protocole permet la résolution des IP en Nom d'Hote ?					//31- DNS
+32- A quand la naissance du premier ordinateur ?							//32- 77ans
+33- Qu'est ce que le LAN ?										//33- Local Area Network
+34- Qu'est ce que le microprocesseur ?									//34- CPU
+35- Premier Ordi, nom ?											//35- Colossus
+36- Poids de l'ENIAC ?											//36- 30 tonnes
+37- Lesquel de ces Systemes d'exploitation n'est pas un systeme de couche :				//37- MS-DOS
+    	       	   	    		   "OS X" "Windows NT" "MS-DOS" "LINUX"
+38- La fonction NAND s'écrit : "/(A.B)" "\(A.B)" "(A+B)/" "(A+B)\" "/(A+B)" "\(A+B)"			//38- /(A.B)
+39- l'utilisation d'un masque de sous réseau permet : "faire des calculs binaires"			//39- Diviser un reseau en plusieurs sous-reseaux
+    		       	      "diviser un reseau en plusieurs sous reseaux"
+		      "transformer les noms en IP" "connaitre l'IP d'une machine"
+40- Le chiffre le plus à droite à toujours : "le rang 1"						//40- Le rang 0
+       	       " le rang 0" "un minimum" "pas de position"
+41- Qui a inventer la logique selon laquelle on exprime un						//41- Georges Boole
+    	  	      	      	    état en fonction de condition (1 ou 0) ?
+42- Les unités centrales de nos ordianteur sont basé sur : "La machine de Pascal",			//42- L'architecture Von Newmann
+    	"La loi de Moore", "la structure de Turing", "l'architecture Von Newmann"
+43- La table de vérité sert à : "donner les varibles en entrée",					//43- Donner les valeurs des variable en sortie en fonction des entrées
+       	     "donner les valeurs des variables en sortie en fonction des entrées"
+44- Comment s'appelle un Systeme d'exploitation modulaire : "mono-os", "organisé",			//44- Micro-noyau
+    	    	      	 	 			  "partitionée", "micronoyau"
+45- Un ordinateur : une machine qui saisit (...), stock (...),						//45- Périphérique d'entrée, mémoire, programme, périphérique de sortie
+       		    		    traite (...) et restitue (...) des infos.
+46- Quel est la topologie d'un réseau avec cette description :						//46- Maillé
+  "Chaque Ordinateure est relié à tous les autres" : "Etoile, "Bus", "Anneau", "Maille"
+47- Un système d'exploitation distribué est équivalent à un système:  "embarqué",			//47- Embarqué ?
+       		      "multiprocesseurs", multiutilisateur", "répartit", "temps réel"
+48- Qu'est ce qui est faux sur la ROM ? : "Son contenu est non volatile",				//48- Elle peut etre modifié par l'utilisateur
+    "cette mémoire contient des données permanantes", "cette mémoire contient le bios",
+    "son temps d'accès est plus rapide que celui de la RAM",			
+    "elle peut etre modifié par l'utilisateur"			
+49- Date du prémier Apple : "1996", "1976", "1956", "1936"						//49- 1976
+50- DNS : "Domain Name System", "Directory Name Server", "Domain Name Server"				//50- Domain Name Systeme
+51- La ROM c'est : la mémoire - "cache", "de masse", "vive", "morte"					//51- La mémoire morte
+52- Les transistors on remplacé : "les circuits imprimés", "les relais téléphoniqueé,			//52- Les tubes à vide
+    		       		       		"les composants", "les tubes à vide"
+53- Microprocesseur =  "Unité centrale", "unité de controle", "CPU", "carte mère"			//53- Unité de controle ?
+54- Quelle industrie -> premiere notion de programation : "aeronotique", "automobile",			//54- Textile
+    	   	     		 	   "pharmaceutique", "textil", "mécanique"
+55- Quand date les 1er Windows: "1988->1995", "1978->1985"						//55- 1988->1995
+56- Dans quel but le Colossus a t'il était mise au point ?						//56- Déchiffrer les messages allemand
+57- Qu'est ce qu'un registre : "un composant qi permet d'enregistrer",					//57- Mémoire
+    	      	    "une mémoire", "un programme", "un logiciel", un livre"
+58- l'Ethernet c'est : "un protocole réseau",								//58- Protocole réseau
+    	      "un cable permettant de relier 2 ordianteurs",		
+	      "un type de reseau LAN", "le contraire du WiFi"		
+59- Soit Une base de n chiffre on peut coder : "n^B valeurs identiques",				//59- B^(N -1)
+    "B^(n-1) valeurs differentes", "2^n valeurs identiques"
+60- Quelle est le Windows pour systeme embarqué ? "Vista" "NT" "CE" "7"					//60- CE
+61- En quoi le système d'exploitation peut etre assimilé a une machine étendue ?			//61- En tant qu'interface
+62- Ordre des couches OSI ?										//62- physique -> liaison -> transport -> réseau -> présentation -> session->application
+63- Dans une décomposition suivant une base, la puissance correspond à :				//63- "au rang"
+    	     		   	   "La force" "au chiffre" "au rang" "à la  base"
+64- Nom de l'équipement de raccordement de l'ADSL chez l'opérateur : "le routeur"			//64- DSLAM
+    	   		   "le Multiplexeur téléphonique", "PABX", "le DSLAM"	
+65- Quelles sont les 2 constructeurs info proposabt des services de maintenance				//65- HP DELL ?
+    	    	       ? "HP IBM", "HP DELL", "DELL Apple", "Acer Lenovo"
+66- Quelle fonction n'est pas exécuté par le noyau d'un OS ?						//66- "Gestion de la sécurité"
+67- Comment s'appelle la partie que permet de gerer plusieurs OS sur une machine ?			//67- Société de Services en Ingénierie Informatiq
+68- La loi de Moore dit :										//68- Le nombre de transistors sur une puce de circuit integre double tou les 18 mois
+70- Qu'elle est le protocole utilise par internet au niveau de la couche reseau ?			//70- IP
+71- L'entreprise Lenovo s'est fait connaitre dans le monde de l'informatique				//71- IBM
+    		 	      	   en rachetant la division informatique de ?	
+72- Un mot memoire c'est ? "2 ou 4 bits" "1 octet" "une instruction" "ça dépend"			//72- ça dépend
+73- Parmit les types de memoire suivantes qu'elle est la plus lente d'acces:				//73- RAM
+    	       	     			 "Registre", "memoire cache", "RAM", "ROM"
+74- Le nombre 0x10 est un nombre ? "Octal", "Binaire", "ASCII", "Hexadécimal", "Decimal"		//74- Hexadécimal,
+75- Qu'elle est le nom de ce que l'on considere comme etant le premiere ordinateur?			//75- Colossus
+    "Eniac", "Colossus"									
+76- Qu'elle est l'autre nom du bus systeme ? "Bus interne", "Bus de controle"				//76- Bus Interne
+77- Internet est un reseau de type ? "LAN", "Token ring", "Wifi", "Wan"					//77- Wan
+78- Quel est la premiere application du traitement de l'information ?					//78- La Caligraphie
+79- Quel est la fonction d'un routeur ?									//79- Trouver la route pour atteindre un destinataire
+80- Une fonction logique peut avoir combien d'entrees ? "1", "Plusieurs", "2", "0"			//80- Plusieurs
+81- Une adresse IP (v4) contient combien d'octets en tout ?						//81- 4 octets
