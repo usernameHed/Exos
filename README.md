@@ -1,2 +1,3 @@
 # Exos
-Some exercise of my student year at epitech
+
+Mini-projects of my student year at Epitech.
