@@ -1,8 +1,0 @@
-kkrepr,vars,dir
-tuples, *args
-**kwargs
-slices [begin :end]
-decorators
-metaclasses
-dynamic type
-...

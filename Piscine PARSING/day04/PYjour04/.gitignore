@@ -1,7 +1,0 @@
-tmp/
-*.o
-*.gch
-src/*.o
-src/*.gch
-include/*.gch
-.fuse_hidden*

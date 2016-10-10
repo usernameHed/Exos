@@ -1,0 +1,63 @@
+Laquelle(lesquelles) de ses notations est(sont) la notation CIDR? - 10.42.254.253/22
+Qu'elle(s) est(sont) la(les) plage(s) d'adresses r�serv�e(s) au multicast ? - Les adresses comprises entre 224.0.0.0 et 239.255.255.255
+Que signifie ICMP ? - Internet Control Message Protocol
+Combien de couches le modele OSI comporte-t-il? - 7
+Quel(s) est(sont) le(s) netmask(s) par défaut d'une IP de classe B sans sous réseau? - 255.255.0.0
+Quel(s) est(sont) le(s) MTU d'ethernet ? - 1500
+Quel(s) protocol(s) est(sont) sur la meme couche que TCP? - User Datagram Protocol
+Sur combien de bits est codee une adresse IPv4? - 32
+Si nous utilisons IPv4 lesquelles de ces affirmations sont vrais? - les adresses peuvent s'ecrire en hexadecimale - les headers IP ont TOUJOURS la meme taille - IPv4 est dans la meme couche OSI qu'IPv6
+qu'est-ce qu'un masque de sous reseau? - une suite de bits qui par leur valeur a 1 definissent les bits de l'adresse IP qui correspondent au NetID - une suite de bits qui par leur valeur a 0 definissent les bits de l'adresse IP qui correspondent au HostID
+4) Quel est le role d'IP - donner un identifiant a un hote
+5) Si un hote a un masque en /0 - il ne communiquera JAMAIS avec son routeur
+6) Quelle(s) IP est(sont) invalide(s) ? - 255.256.5.1
+7) Quelle(s) couche(s) permet(permettent) de g�rer l'adressage IP et le routage des paquets ? - La couche Réseau
+8) Que signifie le signe OSI ? - Open Systems Interconnection
+9) Quelle(s) est(sont) la(les) taille(s) maximum de donn�es transport�es par un datagramme IP ? - 65535 Octets - La taille du header IP
+10) f4 "ping" j3. Quelle est la valeur du TTL affichée par ping ? - 30
+11) h2 "ping" g2. Quelle est la valeur du TTL affich�e par ping ? - Le paquet n'arrive pas.
+12) Avec qui communique j2 ? - j1
+13) Avec qui communique f1 ? -  Rf - f3 - f4 - g3 - Rh
+14) b3 "ping" Ra. Quelle est la valeur du TTL affich�e par ping ? - Le paquet n'arrive pas.
+15) z1 "ping" a1. Quelle est la valeur du TTL affich�e par ping ? - Le paquet n'arrive pas.
+16) Qui communique avec z2 ? - 0 (marquer 0)
+17) Qui communique avec a2 ? - a1 - a3 - b1 - Internet (en considerant que le poste distant demande un routage a Ri pour a2)
+18) Rg communique-t-il avec - Ri - Rj - Rh - h2 - g2
+19) j3 communique-t-il avec - j2 - j3 - j1 - Internet
+20) j1 essaie de "pinger" google.fr, quelle est la valeur du TTL affichee par ping? - si le paquet revien il n'y aura JAMAIS un TTL superieur a 252
+21) j2 essaie de "pinger" g1, quelle est la valeur du TTL affichee par ping ? Le paquet n'arrive pas
+22) Qui communique avec h1 ? - a1 - j1 - f2
+23) Qui ne communique pas avec a1 ? - e2
+24) l'administrateur systeme va prendre le poste c4.
+On souhaite changer l'adresse IP de c4 pour pouvoir communiquer avec un maximum de machines,
+sachant que l'on souhaite continuer a communiquer avec TOUS les postes atteignables auparavant,
+quelles IPs sont un bon choix? - 10.100.0.255/16
+sur quelle couche intervient Ethernet? - Liaison de donnees - Physique
+5) Qu'elle(s) est(sont) la(les) plage(s) d'adresses r�serv�e(s) au multicast ? - Les adresses comprises entre 224.0.0.0 et 239.255.255.255
+7) Quelle(s) couche(s) permet(permettent) de gérer l'adressage IP et le routage des paquets ? - La couche Réseau
+6) Dans 172.20.1.5/24 combien de bit(s) est(sont) pour le host id? - 8 - 32 moins les bits du network id
+7) Quelles sont les adresses IP non routees sur internet? - 0
+8) un masque de 255.255.197.128 - Ne correspond a rien
+9) Le protocole ARP - 0
+10) c1 communique-t-il avec: 1 2 3 4 5 
+11) Rb communique-t-il avec 1 2 3 4 
+12) a3 essaie de "pinger" Ra, quelle est la valeur du TTL affichee par Ping ? Le paquet n'arrive pas
+13) a1 essaie de "pinger" c2, quelle est la valeur du TTL affichee par Ping ? 125
+2) Quels sont les protocoles qui interviennent dans la couche Physique? - 0
+14) Rf communique-t-il avec - 1 2 3 4 5 6
+15) e2 communique-t-il avec - 1 2 4 5
+16) Rd essaie de "pinger" 10.42.4.2, quelle est la valeur du TTL affichee par Ping ? 255
+17) e1 essaie de "pinger" f4, quelle est la valeur du TTL affichee par Ping ? 62
+19) wc2 "ping" 10.42.4.6. Quelle est la valeur du TTL affichée par ping ? - 5
+20) Avec qui communique Re ? - 1 4 5 6
+21) Avec qui communique wc2 ? - 2 3
+18) e2 "ping" c1. Quelle est la valeur du TTL affichée par ping ? - Le paquet n'arrive pas.
+19) wc2 "ping" 10.42.4.6. Quelle est la valeur du TTL affichée par ping ? - Le paquet n'arrive pas.
+20) Avec qui communique Re ? - e2, c2, d2
+21) Avec qui communique wc2 ? - 0
+22) e1 "ping" g3. Quelle est la valeur du TTL affichée par ping ? - Le paquet n'arrive pas
+23) Avec qui communique a1 ? - 0
+24) Admettons que la totalité des hotes ont un masque 255.255.0.0.
+Quel est le masque réseau le p lus restrictif à appliquer à Rc afin qu'il puisse toujours communiquer avec tous les hotes de SRc ? - 255.255.0.0
+
+
